@@ -501,7 +501,7 @@ if ($channelsData === null) {
 <?php foreach ($channelsData as $channel): ?>
     <?php if ($category === '' || $category === $channel['category']): ?>
         <div class="box1">
-            <a href="player.php?id=<?php echo $channel['channel_id']; ?>" data-sveltekit-preload-data="hover">
+            <a href="player.html?id=<?php echo $channel['channel_id']; ?>" data-sveltekit-preload-data="hover">
                 <div class="card w-40 bg-gray-100 rounded-xl bg-base-100 shadow-lg h-48 mb-4 flex flex-col">
                     <img src="<?php echo $channel['channel_logo']; ?>" style="height:125px;" loading="lazy" class="h-28 mt-5 m-auto opacity-100">
                     <div class="mb-5 opacity-100">
