@@ -132,7 +132,7 @@ html {
     ?>
 
     <video autoplay controls crossorigin="anonymous" poster="https://i.ibb.co/0jK6ZJy/lokilogo.jpg" playsinline>
-        <source type="application/vnd.apple.mpegurl" src="app/chdstreamm.php?id=<?= $id; ?>">
+        <source type="application/vnd.apple.mpegurl" src="chdstreamm.php?id=<?= $id; ?>">
     </video>
 <script>
 setTimeout(videovisible, 3000)
