@@ -487,7 +487,7 @@ filter: brightness(90%) contrast(100%); /* Adjust these values as per your prefe
 <?php
 $id = $_GET['id']; // Get the 'id' parameter from the URL
 
-$jsonString = file_get_contents('app/hello.json');
+$jsonString = file_get_contents('hello.json');
 $channelsData = json_decode($jsonString, true);
 
 $category = ''; // Define the $category variable
